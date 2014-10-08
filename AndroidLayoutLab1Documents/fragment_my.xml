@@ -1,0 +1,66 @@
+<!-- Week 3 Lab 1 -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity$PlaceholderFragment">
+
+   <ImageView
+        android:id="@+id/image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="40dp"
+        android:src="@drawable/me" />
+
+    <TextView
+        android:id="@+id/first_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:text="@string/first_name"
+        />
+    <TextView
+        android:id="@+id/last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/image"
+        android:layout_alignBottom="@id/third_class"
+        android:text="@string/last_name"
+        />
+    <TextView
+        android:id="@+id/first_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/last_name"
+        android:paddingLeft="40dp"
+        android:text="@string/first_class"
+        />
+    <TextView
+        android:id="@+id/second_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/last_name"
+        android:paddingLeft="40dp"
+        android:layout_below="@id/first_class"
+        android:text="@string/second_class"
+        />
+    <TextView
+        android:id="@+id/third_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/last_name"
+        android:paddingLeft="40dp"
+        android:layout_below="@id/second_class"
+        android:text="@string/third_class"
+        />
+
+
+
+</RelativeLayout>
