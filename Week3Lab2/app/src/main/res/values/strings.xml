@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Week3Lab2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="next_string">Next</string>
+    <string name="prev_string">Prev</string>
+    <string name="lamborghini_aventador">Lamborghini Aventador</string>
+
+</resources>
